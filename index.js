@@ -31,13 +31,13 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
   consola.start(`
 ┈┈┈╲┈┈┈┈╱
 ┈┈┈╱▔▔▔▔╲
-┈┈┃┈○┈┈●┈┃
+┈┈┃┈▇┈┈▇┈┃
 ╭╮┣━━━━━━┫╭╮
 ┃┃┃┈┈┈┈┈┈┃┃┃
 ╰╯┃┈┈┈┈┈┈┃╰╯
 ┈┈╰┓┏━━┓┏╯
 ┈┈┈╰╯┈┈╰╯ Trophy And Crown Hack Safe! [ReEdit]
-By : ${chalk.bold('M4rio GT#7754')} - Credit : @dkmpostor & @Eskey & Zenix
+By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @Eskey & Zenix
 `);
 
   const auth = rs.question('Enter Authentication Code! : ');
@@ -59,10 +59,10 @@ By : ${chalk.bold('M4rio GT#7754')} - Credit : @dkmpostor & @Eskey & Zenix
       const crown = data.User.Crowns;
 
 (consola.info(` [ ${moment().format('HH:mm:ss')} ] ${consola.info(`User : ${username}`)} ${consola.info(`Server : ${country}`)} ${consola.info(`Trophy : ${trophy}`)} ${consola.info(`Crown : ${crown}`)}`));
-      await sleep(3500);
+      await sleep(6500);
 
     } else if (result == 'BANNED') {
-      console.log(consola.error(`Account Ban😈`));
+      console.log(consola.error(`Your Account has been Banned`));
      break
     }
   }
